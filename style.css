@@ -1,0 +1,213 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.first-section {
+  height: 100vh;
+  background: url("assets/hill.png") no-repeat bottom / 100vw, linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.cta-heading {
+  margin-top: 2.7em;
+  font-size: 3rem;
+}
+
+.countdown-timer {
+  margin-top: 3.75rem;
+}
+
+.time-segment {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.time-unit {
+  font-size: 1.88rem;
+  text-align: center;
+}
+
+.cloud {
+  position: absolute;
+  z-index: 0;
+  animation-name: cloudy;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cloud-1 {
+  top: 18.63rem;
+  animation-duration: 96s;
+  animation-delay: -50s;
+}
+
+.cloud-2 {
+  top: 3.81rem;
+  animation-duration: 110s;
+  animation-delay: -15s;
+
+}
+
+.cloud-3 {
+  top: 28.88rem;
+  animation-duration: 84s;
+  animation-delay: -90s;
+
+}
+
+.cloud-4 {
+  top: 16.06rem;
+  animation-duration: 192s;
+  animation-delay: -3s;
+
+}
+
+.cloud-5 {
+  top: 5.19rem;
+  animation-duration: 128s;
+  animation-delay: -50s;
+}
+
+@keyframes cloudy {
+  0% {
+    left: 100%;
+    opacity: 0;
+  }
+
+  5% {
+    left: 95%;
+    opacity: 1;
+  }
+
+  95% {
+    left: 5%;
+    opacity: 1;
+  }
+
+  100% {
+    left: 0;
+    opacity: 0;
+  }
+}
+
+.btn.btn-joom {
+  border-radius: 0;
+  padding: 14px 28px;
+  background: #4378F8;
+  box-shadow: 0 12px 17px -7px #4378F8;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.cta-button {
+  margin-top: 3.75rem;
+}
+
+.second-section {
+  background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+  padding: 3rem 15px 8.75rem;
+}
+
+
+.second-section .first-row {
+  margin-top: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .section-content {
+    padding: 1em;
+  }
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 3.44rem;
+  margin-bottom: 1em;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.88rem;
+  margin-bottom: 2rem;
+}
+
+.third-row {
+  margin-top: 8.75rem;
+}
+
+.fourth-section {
+  position: absolute;
+  padding: 6rem 15px;
+  height: 630px;
+  background-color: #f4f4f4;
+}
+.my-carousel-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.my-carousel-item .caption {
+  opacity: 0;
+  transition: 200ms;
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  height: 27%;
+  width: calc(100% - 28px);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+
+}
+
+.my-carousel-item:hover .caption {
+  opacity: 1;
+}
+
+.my-carousel-item:hover img {
+  filter: blur(1px);
+}
+
+
+.my-carousel-item {
+  will-change: order;
+}
+.row.justify-content-center.align-items-center.person-all{
+  margin-top: 88px;
+
+}
+
+.person-1{
+  position: absolute;
+  left: 0%;
+  transition: left .3s linear;
+}
+
+.person-2{
+  position: absolute;
+  left: 33%;
+  /* display: none; */
+  transition: left .3s linear;
+}
+
+.person-3{
+  position: absolute;
+  left: 66%;
+  /* display: none; */
+  transition: left .3s linear;
+}

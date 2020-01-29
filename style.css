@@ -13,7 +13,6 @@ h2 {
 .first-section {
   height: 100vh;
   background: url("assets/hill.png") no-repeat bottom / 100vw, linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
-
   text-align: center;
   position: relative;
   overflow-x: hidden;
@@ -210,4 +209,12 @@ h2 {
   left: 66%;
   /* display: none; */
   transition: left .3s linear;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .first-section {
+    width: 100%;
+    padding: 0;
+  }
 }

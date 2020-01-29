@@ -12,7 +12,8 @@ h2 {
 
 .first-section {
   height: 100vh;
-  background: url("assets/hill.png") no-repeat bottom / 100vw, linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+  background: url("assets/hill.png") no-repeat bottom / 100vw,
+    linear-gradient(-180deg, #d5e2ff 0%, #ffffff 100%);
   text-align: center;
   position: relative;
   overflow-x: hidden;
@@ -56,21 +57,18 @@ h2 {
   top: 3.81rem;
   animation-duration: 110s;
   animation-delay: -15s;
-
 }
 
 .cloud-3 {
   top: 28.88rem;
   animation-duration: 84s;
   animation-delay: -90s;
-
 }
 
 .cloud-4 {
   top: 16.06rem;
   animation-duration: 192s;
   animation-delay: -3s;
-
 }
 
 .cloud-5 {
@@ -104,9 +102,9 @@ h2 {
 .btn.btn-joom {
   border-radius: 0;
   padding: 14px 28px;
-  background: #4378F8;
-  box-shadow: 0 12px 17px -7px #4378F8;
-  font-family: 'Source Sans Pro', sans-serif;
+  background: #4378f8;
+  box-shadow: 0 12px 17px -7px #4378f8;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
@@ -114,14 +112,14 @@ h2 {
 }
 
 .cta-button {
-  margin-top: 3.75rem;
+	margin-top: 3.75rem;
+	cursor: pointer;
 }
 
 .second-section {
-  background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+  background-image: linear-gradient(-180deg, #d5e2ff 0%, #ffffff 100%);
   padding: 3rem 15px 8.75rem;
 }
-
 
 .second-section .first-row {
   margin-top: 3rem;
@@ -171,7 +169,6 @@ h2 {
   width: calc(100% - 28px);
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1em;
-
 }
 
 .my-carousel-item:hover .caption {
@@ -182,39 +179,75 @@ h2 {
   filter: blur(1px);
 }
 
-
 .my-carousel-item {
   will-change: order;
 }
-.row.justify-content-center.align-items-center.person-all{
+.row.justify-content-center.align-items-center.person-all {
   margin-top: 88px;
-
 }
 
-.person-1{
+.person-1 {
   position: absolute;
   left: 0%;
-  transition: left .3s linear;
+  transition: left 0.3s linear;
 }
 
-.person-2{
+.person-2 {
   position: absolute;
   left: 33%;
   /* display: none; */
-  transition: left .3s linear;
+  transition: left 0.3s linear;
 }
 
-.person-3{
+.person-3 {
   position: absolute;
   left: 66%;
   /* display: none; */
-  transition: left .3s linear;
+  transition: left 0.3s linear;
 }
 
 @media only screen and (max-width: 768px) {
-
   .first-section {
-    width: 100%;
+		width: 100%;
+		height: 75vh;
     padding: 0;
   }
+
+  .first-section img {
+    display: none;
+  }
+
+  .first-section .cta-heading {
+    margin: 0;
+    padding: 0;
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    flex-basis: 80%;
+    max-width: 80%;
+	}
+	
+	.first-section .countdown-timer-wrapper {
+		margin: 45px 0 0 0;
+		padding: 10px 0 10px;
+		flex-basis: 80%;
+		max-width: 80%;
+		border-radius: 5px;
+		box-shadow: 0 3px 15px #888888;
+	}
+
+	.countdown-timer {
+		margin-top: 0;
+	}
+
+	.countdown-timer .time-segment {
+		font-size: 1.5rem;
+	}
+
+	.countdown-timer .time-unit {
+		font-size: 1rem;
+	}
+
+	.cta-button {
+		margin-top: 3rem;
+	}
 }

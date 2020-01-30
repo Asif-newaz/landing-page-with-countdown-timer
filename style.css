@@ -249,5 +249,18 @@ h2 {
 
 	.cta-button {
 		margin-top: 3rem;
-	}
+  }
+  
+  .second-section .first-row {
+    margin-top: 0;
+  }
+
+  .second-section .secon-section-first-image {
+    padding: 0;
+  }
+
+  .section-heading {
+    font-size: 1.5em;
+    line-height: 1.3;
+  }
 }

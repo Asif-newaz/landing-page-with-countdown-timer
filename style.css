@@ -293,4 +293,9 @@ h2 {
   .align-left {
     padding-top: 50px;
   }
+
+  .img-carousel-content {
+    flex-basis: 100%;
+    max-width: 100%;;
+  }
 }

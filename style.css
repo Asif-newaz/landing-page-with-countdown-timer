@@ -150,7 +150,7 @@ h2 {
 .third-section {
   position: absolute;
   padding: 6rem 15px;
-  height: 630px;
+  height: 700px;
   background-color: #f4f4f4;
 }
 .my-carousel-item {
@@ -215,6 +215,12 @@ h2 {
     font-size: 0.875em;
   }
 
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* First Section */
   .first-section {
 		width: 100%;
 		height: 70vh;
@@ -259,17 +265,13 @@ h2 {
 		margin-top: 3rem;
   }
 
+  /* Second Section */
   .second-section {
     padding: 0;
   }
   
   .second-section .first-row {
     margin: 0;
-  }
-
-  .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
   }
 
   .second-section .second-section-first-image {
@@ -307,17 +309,18 @@ h2 {
     padding-top: 50px;
   }
 
-  .img-carousel-content {
-    flex-basis: 100%;
-    max-width: 100%;;
-  }
-
+  /* Third Section */
   .third-section {
     padding: 20px 15px;
     margin: 50px 0 0 0;
     height: 350px;
   }
-
+  
+  .img-carousel-content {
+    flex-basis: 100%;
+    max-width: 100%;;
+  }
+  
   .row.justify-content-center.align-items-center.person-all {
     margin-top: 30px;
   }
@@ -326,4 +329,5 @@ h2 {
     flex-basis: 100%;
     max-width: 100%;
   }
+
 }

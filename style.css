@@ -207,6 +207,14 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .img-carousel-content p {
+    font-size: 0.875em;
+  }
+
   .first-section {
 		width: 100%;
 		height: 70vh;
@@ -256,10 +264,15 @@ h2 {
   }
   
   .second-section .first-row {
-    margin-top: 0;
+    margin: 0;
   }
 
-  .second-section .secon-section-first-image {
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .second-section .second-section-first-image {
     padding: 0;
   }
 
@@ -302,7 +315,7 @@ h2 {
   .fourth-section {
     padding: 20px 25px;
     margin: 50px 0 0 0;
-    height: 400px;
+    height: 350px;
   }
 
   .row.justify-content-center.align-items-center.person-all {

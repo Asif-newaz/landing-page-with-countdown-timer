@@ -12,8 +12,7 @@ h2 {
 
 .first-section {
   height: 100vh;
-  background: url("assets/hill.png") no-repeat bottom / 100vw,
-    linear-gradient(-180deg, #d5e2ff 0%, #ffffff 100%);
+  background: url("assets/hill.png") no-repeat bottom / 100vw, linear-gradient(-180deg, #3e578f 0%, #18302a 100%);
   text-align: center;
   position: relative;
   overflow-x: hidden;
@@ -74,6 +73,36 @@ h2 {
 .cloud-5 {
   top: 5.19rem;
   animation-duration: 128s;
+  animation-delay: -50s;
+}
+
+.cloud-6 {
+  top: 25.19rem;
+  animation-duration: 128s;
+  animation-delay: -60s;
+}
+
+.cloud-7 {
+  top: 35.19rem;
+  animation-duration: 128s;
+  animation-delay: -70s;
+}
+
+.cloud-8 {
+  top: 20.19rem;
+  animation-duration: 168s;
+  animation-delay: -50s;
+}
+
+.cloud-9 {
+  top: 1.19rem;
+  animation-duration: 128s;
+  animation-delay: -50s;
+}
+
+.cloud-10 {
+  top: 12.19rem;
+  animation-duration: 78s;
   animation-delay: -50s;
 }
 
